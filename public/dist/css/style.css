@@ -1,0 +1,3 @@
+input[type="date"].is-invalid {
+    background-image: none;
+}
