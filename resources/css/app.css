@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: "Nunito", system-ui, sans-serif;
+}
+
+body {
+  background-color: #F8F9FE;
+}
+
+.overlay-gradient {
+    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%);
+}
