@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: "Nunito", system-ui, sans-serif;
+@layer base {
+  * {
+    font-family: "Open Sans", system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #F8F9FE;
+  }
+
+  .overlay-gradient {
+      background: linear-gradient(87deg, #172b4d 0, #1a174d 100%);
+  }
 }
 
-body {
-  background-color: #F8F9FE;
-}
-
-.overlay-gradient {
-    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%);
-}
